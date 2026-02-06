@@ -22,7 +22,7 @@ dag = DAG(
     default_args=default_args,
     description='ETL pipeline for users data',
     schedule_interval=timedelta(days=1),
-    start_date=datetime(2025, 4, 22),
+    start_date=datetime(2026, 4, 22),
     catchup=False,
 )
 
